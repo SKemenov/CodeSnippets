@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>nslca</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSLayoutConstraint.activate([
+    &lt;#property#&gt;.topAnchor.constraint(equalTo: &lt;#superView#&gt;.topAnchor, constant: &lt;#CGFloat#&gt;),
+    &lt;#property#&gt;.bottomAnchor.constraint(equalTo: &lt;#superView#&gt;.bottomAnchor, constant: &lt;#CGFloat#&gt;),
+
+    &lt;#property#&gt;.leadingAnchor.constraint(equalTo: &lt;#superView#&gt;.leadingAnchor, constant: &lt;#CGFloat#&gt;),
+    &lt;#property#&gt;.trailingAnchor.constraint(equalTo: &lt;#superView#&gt;.trailingAnchor, constant: &lt;#CGFloat#&gt;),
+
+    &lt;#property#&gt;.centerYAnchor.constraint(equalTo: &lt;#superView#&gt;.centerYAnchor),
+    &lt;#property#&gt;.centerYAnchor.constraint(equalTo: &lt;#superView#&gt;.centerYAnchor),
+
+    &lt;#property#&gt;.widthAnchor.constraint(equalToConstant: &lt;#CGFloat#&gt;),
+    &lt;#property#&gt;.heightAnchor.constraint(equalToConstant: &lt;#CGFloat#&gt;),
+])
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>52C1B93C-D043-4068-A4BC-7DE90F8C2731</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSLayout Constaints Activate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
